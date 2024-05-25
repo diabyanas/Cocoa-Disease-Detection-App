@@ -266,7 +266,8 @@ def myapp():
                                         "width": width,
                                         "length": length,
                                         "pred_img_id": pred_img_id,
-                                        "confidence": confidence
+                                        "confidence": confidence,
+                                        "temps_reponse_api": response_time
                                     }
 
                                     # Insertion des données dans la table "boxes"
@@ -302,3 +303,4 @@ def myapp():
 # Exécutez l'application
 if __name__ == "__main__":
     myapp()
+
